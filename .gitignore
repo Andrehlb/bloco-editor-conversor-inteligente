@@ -134,3 +134,22 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# React / Vite / CRA
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+
+# VSCode settings
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
